@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Time to Party</string>
+    <string name="startParty">Tap Here to Get the Party Started!</string>
+    <string name="browse">...Or Tap Here to Browse Other Party Playlists</string>
+    <string name="welcome">Welcome to Party Time, the app for instant curated party music</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.musicalstructure.detailsActivity">
+
+    <TextView
+        style="@style/standardTextStyle"
+        android:text="This page would show the current song details, including Artist name, album name, release year, album art, and places to download" />
+
+
+    <TextView
+        style="@style/standardTextStyle"
+        android:text="I would also have a link to the song in the Google Play Store, using the instructions from the following link (I believe this qualifies as an API): https://developer.android.com/distribute/tools/promote/linking.html" />
+
+</LinearLayout>

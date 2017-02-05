@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_browse"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/startPartyColor"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.musicalstructure.BrowseActivity">
+
+    <TextView
+        style="@style/standardTextStyle"
+        android:text="This Activity will feature a list of playlists that fit different types of parties" />
+
+    <TextView
+        style="@style/standardTextStyle"
+        android:text="Each playlist would link to the playScreenActivity but would point to a different set of song names, possibly stored in an array of some kind" />
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/music" />
+
+    <TextView
+        android:id="@+id/welcome"
+        style="@style/standardTextStyle"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/nowPlaying"
+        style="@style/startPartyStyle"
+        android:layout_below="@id/welcome"
+        android:background="@color/startPartyColor"
+        android:text="@string/startParty"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/browse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="16dp"
+        android:text="@string/browse"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>
